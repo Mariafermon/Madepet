@@ -235,21 +235,24 @@ header img {
     flex-direction: column;
     align-items: center;
     padding: 32px 32px;
-    width: 585px;
-    height: 578px;
+    width: 100%;
+    max-width: 1000px;
 }
-.form fieldset{
-    border: 0px;
+.text-input1 {
+    width: 100%;
 }
 .text-input1 input {
-    width: 521px;
-    height: 53px;
+    width: 100%;
+    height: 40px;
     border: 0px;
     border-radius: 12px;
     margin: 12px 0px;
 }
+.textarea-input{
+    width: 100%;
+}
 .textarea-input textarea{
-    width: 521px;
+    width: 100%;
     height: 147px;
     border: 0px;
     border-radius: 12px;
@@ -260,7 +263,10 @@ header img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 24px;
+    margin: 48px 48px;
+}
+#contact img{
+    width: 800px;
 }
 /* Contact -------------------------------------------------------------------------------- */
 
@@ -279,6 +285,14 @@ header img {
     width: 363px;
     height: 327px;
 }
+.card-staff{
+    box-shadow: 0px 4px 9px #898989;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 16px;
+}
+
 /* Staff -------------------------------------------------------------------------------- */
 
 /* Footer -------------------------------------------------------------------------------- */
@@ -425,6 +439,13 @@ justify-content: space-between;
         #about-us h2{
         text-align: center;
         }
+        #contact { 
+            flex-direction: column;
+        }
+        #contact img{
+            width: 600px;
+        } 
+    
     }
 
 @media (min-width: 0px) and (max-width: 768px) { /* Mobile */
@@ -484,6 +505,12 @@ justify-content: space-between;
         text-align: center ;
         margin: 20px;
     }
+    #contact { 
+        flex-direction: column;
+    }
+    #contact img{
+        width: 400px;
+    } 
     footer{
         flex-direction: column;
         align-items: center;
