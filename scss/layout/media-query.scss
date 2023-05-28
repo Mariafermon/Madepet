@@ -1,0 +1,134 @@
+
+@media (min-width: 769px) and (max-width: 1024px){ /* small desktops */
+    #coverHome {
+        div {
+            h1{
+                font-size: 48px;
+                line-height: 56px;
+            }
+        }
+
+        img {
+            width: 486.13px;
+            height: 519px;            
+        }
+    }
+
+    #howDoesItWork {
+        .main-image{
+            width: 427px;
+            height: 387.95px;
+        }
+    }
+
+    #about-us {
+        flex-direction: column;
+    }
+
+    #about-us {
+        h2 {
+            text-align: center;
+        }
+    }
+
+    #contact { 
+        flex-direction: column;
+    }
+    #contact {
+        img{
+            width: 600px;
+        } 
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 768px) { /* Mobile */
+    #coverHome{
+        flex-direction: column;
+
+        div {
+            h1{
+                font-size: 32px;
+                line-height: 40px;
+            }
+        }
+
+        img {
+            width: 320px;
+            height: 341.64px;
+        }
+    }
+
+    #howDoesItWork {
+        h2 {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 40px;
+        }
+
+        .main-image {
+            width: 320px;
+            height: 290.73px;
+        }
+    }
+
+    .container-howdoesitwork {
+        flex-direction: column-reverse;
+    }
+
+    .steps{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #textHome {
+        h2 {
+            font-size: 20px;
+            line-height: 32px;
+        }
+    }
+
+    .offer-work{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog{ 
+        width: 392px;
+        height: 463px;
+    }
+
+    .title-section h1{
+        font-size: 32px;
+        line-height: 24px;
+    }
+
+    #about-us{
+        flex-direction: column;
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center ;
+            margin: 20px;
+        }
+    }
+    #contact { 
+        flex-direction: column;
+
+        img {
+            width: 400px;
+        } 
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

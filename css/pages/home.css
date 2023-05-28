@@ -1,0 +1,96 @@
+#coverHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 24px;
+}
+#coverHome img {
+  width: 562px;
+  height: 600px;
+  text-align: center;
+}
+#coverHome div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+#coverHome div h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+}
+#coverHome div p {
+  text-align: center;
+}
+
+#howDoesItWork {
+  display: flex;
+  flex-direction: column;
+}
+#howDoesItWork h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.container-howdoesitwork {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 16px 16px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.steps:hover {
+  transform: translateX(-50px);
+  transition: all 0.5s ease;
+}
+.steps img {
+  width: 60px;
+  height: 60px;
+  margin: 8px;
+}
+
+#textHome {
+  display: flex;
+  text-align: center;
+  margin: 32px 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 70px;
+}
+
+.offer-work {
+  display: flex;
+  flex-direction: row;
+  margin: 48px;
+  text-align: center;
+  align-items: center;
+}
+
+#containerOfferWork {
+  background-color: #BEE1F7;
+  padding: 64px 32px;
+}
+
+#promocionalVideo {
+  margin: 32px;
+  display: flex;
+  justify-content: center;
+}
+#promocionalVideo iframe {
+  width: 760px;
+  height: 515px;
+}
+
+/*# sourceMappingURL=home.css.map */

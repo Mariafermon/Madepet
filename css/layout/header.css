@@ -1,0 +1,30 @@
+header {
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 99;
+}
+header img {
+  min-width: 97px;
+  min-height: 97px;
+  width: 97px;
+  height: 97px;
+}
+
+.navbar-nav .nav-link {
+  color: #2d2d2d;
+}
+.navbar-nav .nav-link.active {
+  color: #0FA3B1;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-collapse {
+  justify-content: right;
+}
+
+/*# sourceMappingURL=header.css.map */

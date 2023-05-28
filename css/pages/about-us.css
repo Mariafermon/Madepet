@@ -1,0 +1,16 @@
+#about-us {
+  display: flex;
+  flex-direction: row;
+  margin: 32px 24px;
+  justify-content: space-between;
+}
+#about-us img {
+  margin: 40px;
+}
+#about-us div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/*# sourceMappingURL=about-us.css.map */

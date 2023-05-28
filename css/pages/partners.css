@@ -1,0 +1,92 @@
+.grid {
+  padding: 16px 32px 32px 32px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas: "h2Grid h2Grid h2Grid h2Grid h2Grid h2Grid" "Logo1 Logo2 Logo3 Promo1 Promo1 Promo1" "Logo4 Logo4 Logo5 Promo1 Promo1 Promo1" "Promo4 Promo4 Promo4 Promo4 Promo2 Promo2" "Promo4 Promo4 Promo4 Promo4 Promo2 Promo2" "Promo3 Promo3 Logo6 Logo7 Promo5 Promo5" "Promo3 Promo3 Logo8 Logo9 Promo5 Promo5";
+  row-gap: 16px;
+  column-gap: 16px;
+}
+
+#Logo1 {
+  grid-area: Logo1;
+  width: 100%;
+}
+
+#Logo2 {
+  grid-area: Logo2;
+  width: 100%;
+}
+
+#Logo3 {
+  grid-area: Logo3;
+  width: 100%;
+}
+
+#Logo4 {
+  grid-area: Logo4;
+  width: 100%;
+}
+
+#Logo5 {
+  grid-area: Logo5;
+  width: 100%;
+}
+
+#Logo6 {
+  grid-area: Logo6;
+  width: 100%;
+}
+
+#Logo7 {
+  grid-area: Logo7;
+  width: 100%;
+}
+
+#Logo8 {
+  grid-area: Logo8;
+  width: 100%;
+}
+
+#Logo9 {
+  grid-area: Logo9;
+  width: 100%;
+}
+
+#Promo1 {
+  grid-area: Promo1;
+  width: 100%;
+}
+
+#Promo2 {
+  grid-area: Promo2;
+  width: 100%;
+}
+
+#Promo3 {
+  grid-area: Promo3;
+  width: 100%;
+}
+
+#Promo4 {
+  grid-area: Promo4;
+  width: 100%;
+}
+
+#Promo5 {
+  grid-area: Promo5;
+  width: 100%;
+}
+
+#h2Grid {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  grid-area: h2Grid;
+}
+
+/*# sourceMappingURL=partners.css.map */

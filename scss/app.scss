@@ -1,0 +1,22 @@
+
+// Typography
+@import "basics/colors";
+@import "basics/typography";
+@import "basics/body";
+
+// Layout
+@import "layout/header";
+@import "layout/general";
+@import "layout/footer";
+
+// Pages
+@import "pages/about-us";
+@import "pages/blog";
+@import "pages/contact";
+@import "pages/home";
+@import "pages/partners";
+@import "pages/staff";
+@import "layout/media-query.scss"
+
+
+

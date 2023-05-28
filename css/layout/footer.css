@@ -1,0 +1,56 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #4AA1AF;
+  padding: 24px 32px;
+}
+
+.footer-item {
+  width: 33%;
+}
+
+#logoHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#logoHeader img {
+  width: 120px;
+  height: 120px;
+}
+
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact-footer ul {
+  display: flex;
+  flex-direction: row;
+}
+.contact-footer ul img {
+  width: 48px;
+  height: 50.42px;
+  margin: 8px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  animation-name: typing;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+}
+
+/*# sourceMappingURL=footer.css.map */

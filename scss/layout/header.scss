@@ -1,0 +1,33 @@
+@import "../basics/colors.scss";
+
+header {
+    width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+    z-index: 99;
+
+    img {
+        min-width: 97px;
+        min-height: 97px;
+        width: 97px;
+        height: 97px;
+    }
+}
+
+.navbar-nav {
+    .nav-link {
+        color: $black
+    }
+    .nav-link.active {
+        color: $turquoise 
+    }
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-collapse {
+    justify-content: right;
+}
