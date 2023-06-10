@@ -1,134 +1,150 @@
-
-@media (min-width: 769px) and (max-width: 1024px){ /* small desktops */
-    #coverHome {
-        div {
-            h1{
-                font-size: 48px;
-                line-height: 56px;
-            }
-        }
-
-        img {
-            width: 486.13px;
-            height: 519px;            
-        }
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* small desktops */
+  #coverHome {
+    div {
+      h1 {
+        font-size: 48px;
+        line-height: 56px;
+      }
     }
 
-    #howDoesItWork {
-        .main-image{
-            width: 427px;
-            height: 387.95px;
-        }
+    img {
+      width: 486.13px;
+      height: 519px;
     }
+  }
 
-    #about-us {
-        flex-direction: column;
+  #howDoesItWork {
+    .main-image {
+      width: 427px;
+      height: 387.95px;
     }
+  }
 
-    #about-us {
-        h2 {
-            text-align: center;
-        }
-    }
+  #about-us {
+    flex-direction: column;
+  }
 
-    #contact { 
-        flex-direction: column;
+  #about-us {
+    h2 {
+      text-align: center;
     }
-    #contact {
-        img{
-            width: 600px;
-        } 
-    }
+  }
 
+  #contact {
+    flex-direction: column;
+  }
+  #contact {
+    img {
+      width: 600px;
+    }
+  }
+  .blog-page{
+    flex-direction: column-reverse;
+}
 }
 
-@media (min-width: 0px) and (max-width: 768px) { /* Mobile */
-    #coverHome{
-        flex-direction: column;
+@media (min-width: 0px) and (max-width: 768px) {
+  /* Mobile */
+  #coverHome {
+    flex-direction: column;
 
-        div {
-            h1{
-                font-size: 32px;
-                line-height: 40px;
-            }
-        }
-
-        img {
-            width: 320px;
-            height: 341.64px;
-        }
-    }
-
-    #howDoesItWork {
-        h2 {
-            font-weight: 700;
-            font-size: 24px;
-            line-height: 40px;
-        }
-
-        .main-image {
-            width: 320px;
-            height: 290.73px;
-        }
-    }
-
-    .container-howdoesitwork {
-        flex-direction: column-reverse;
-    }
-
-    .steps{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    #textHome {
-        h2 {
-            font-size: 20px;
-            line-height: 32px;
-        }
-    }
-
-    .offer-work{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .blog{ 
-        width: 392px;
-        height: 463px;
-    }
-
-    .title-section h1{
+    div {
+      h1 {
         font-size: 32px;
-        line-height: 24px;
+        line-height: 40px;
+      }
     }
 
-    #about-us{
-        flex-direction: column;
-
-        h2 {
-            text-align: center;
-        }
-
-        p {
-            font-size: 12px;
-            line-height: 20px;
-            text-align: center ;
-            margin: 20px;
-        }
+    img {
+      width: 320px;
+      height: 341.64px;
     }
-    #contact { 
-        flex-direction: column;
+  }
 
-        img {
-            width: 400px;
-        } 
+  #howDoesItWork {
+    h2 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 40px;
     }
 
-    footer{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .main-image {
+      width: 320px;
+      height: 290.73px;
     }
+  }
+
+  .container-howdoesitwork {
+    flex-direction: column-reverse;
+  }
+
+  .steps {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &:hover {
+      transform: scale(1.05,1.05);
+      transition: all 1s ease;
+  }
+  }
+
+  #textHome {
+    h2 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+
+  .offer-work {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-section h1 {
+    font-size: 32px;
+    line-height: 24px;
+  }
+
+  #about-us {
+    flex-direction: column;
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 20px;
+      text-align: center;
+      margin: 20px;
+    }
+  }
+
+  #bannerSection {
+    margin-top: 58px;
+    margin-bottom: 58px;
+
+    p {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+
+  #contact {
+    flex-direction: column;
+
+    img {
+      width: 400px;
+    }
+  }
+  .blog-page{
+    flex-direction: column-reverse;
+}
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }

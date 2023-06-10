@@ -90,12 +90,23 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #4AA1AF;
+  background-color: #4aa1af;
   padding: 24px 32px;
 }
 
 .footer-item {
   width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.footer-item img {
+  width: 122px;
+  height: 122px;
+}
+.footer-item .button-secondary {
+  width: auto;
 }
 
 #logoHeader {
@@ -163,10 +174,15 @@ footer {
   justify-content: center;
 }
 
-.blog {
+.blog-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-article {
   box-shadow: 0px 4px 9px #898989;
   border-radius: 16px;
-  width: 587.03px;
+  width: 392px;
   margin: 24px;
   display: flex;
   flex-direction: column;
@@ -175,21 +191,41 @@ footer {
   gap: 4px;
   transition: all 0.5s ease;
 }
-.blog:hover {
+.blog-article:hover {
   transform: scale(1.05, 1.05);
   transition: all 1s ease;
 }
-.blog img {
+.blog-article img {
   width: 100%;
   padding: 16px;
 }
-.blog p {
+.blog-article p {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 131%;
 }
-.blog h2 {
+.blog-article h2 {
+  text-align: center;
+}
+
+.blog-main {
+  box-shadow: 0px 4px 9px #898989;
+  border-radius: 16px;
+  margin: 58px 24px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-main img {
+  width: 100%;
+}
+.blog-main h2 {
+  margin: 16px 0px;
+}
+.blog-main h3 {
+  align-items: center;
   text-align: center;
 }
 
@@ -326,8 +362,29 @@ footer {
 }
 
 #containerOfferWork {
-  background-color: #BEE1F7;
+  background-color: #bee1f7;
   padding: 64px 32px;
+}
+
+#bannerSection {
+  margin-top: 158px;
+  margin-bottom: 158px;
+}
+#bannerSection p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 70px;
+  text-align: center;
+}
+#bannerSection .banner-container {
+  max-height: 334px;
+}
+#bannerSection .banner-container img {
+  width: 100%;
+  height: auto;
+  background-repeat: repeat-x;
 }
 
 #promocionalVideo {
@@ -462,7 +519,8 @@ footer {
   transition: all 0.5s ease;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) { /* small desktops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* small desktops */
   #coverHome div h1 {
     font-size: 48px;
     line-height: 56px;
@@ -487,8 +545,12 @@ footer {
   #contact img {
     width: 600px;
   }
+  .blog-page {
+    flex-direction: column-reverse;
+  }
 }
-@media (min-width: 0px) and (max-width: 768px) { /* Mobile */
+@media (min-width: 0px) and (max-width: 768px) {
+  /* Mobile */
   #coverHome {
     flex-direction: column;
   }
@@ -517,6 +579,10 @@ footer {
     align-items: center;
     text-align: center;
   }
+  .steps:hover {
+    transform: scale(1.05, 1.05);
+    transition: all 1s ease;
+  }
   #textHome h2 {
     font-size: 20px;
     line-height: 32px;
@@ -524,10 +590,6 @@ footer {
   .offer-work {
     display: flex;
     flex-direction: column;
-  }
-  .blog {
-    width: 392px;
-    height: 463px;
   }
   .title-section h1 {
     font-size: 32px;
@@ -545,11 +607,22 @@ footer {
     text-align: center;
     margin: 20px;
   }
+  #bannerSection {
+    margin-top: 58px;
+    margin-bottom: 58px;
+  }
+  #bannerSection p {
+    font-size: 20px;
+    line-height: 32px;
+  }
   #contact {
     flex-direction: column;
   }
   #contact img {
     width: 400px;
+  }
+  .blog-page {
+    flex-direction: column-reverse;
   }
   footer {
     flex-direction: column;

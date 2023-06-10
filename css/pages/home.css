@@ -79,8 +79,29 @@
 }
 
 #containerOfferWork {
-  background-color: #BEE1F7;
+  background-color: #bee1f7;
   padding: 64px 32px;
+}
+
+#bannerSection {
+  margin-top: 158px;
+  margin-bottom: 158px;
+}
+#bannerSection p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 70px;
+  text-align: center;
+}
+#bannerSection .banner-container {
+  max-height: 334px;
+}
+#bannerSection .banner-container img {
+  width: 100%;
+  height: auto;
+  background-repeat: repeat-x;
 }
 
 #promocionalVideo {
